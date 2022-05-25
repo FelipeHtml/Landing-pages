@@ -60,15 +60,20 @@ padding-top: 40px;
 
 }
 h1{
-    color: aquamarine;
+    color:aquamarine;
 font-size: 40pt;
 }
 
 h2{
     color: rgb(23, 104, 104);
     font-size: 35pt;
-}
 
+}
+.h2principal{
+    color:rgb(23, 104, 104);
+    position:relative;
+top:-40px;
+font-size: 35pt;}
 
 .botton {
     background-color: aqua;
@@ -199,7 +204,7 @@ justify-content: space-around;}
     width: auto;
     height: auto;
     display:block;
-    background: rgb(1, 13, 50);
+    background: rgb(3, 10, 34);
 }
 
 .form{
@@ -339,3 +344,55 @@ top:20px;}
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(117, 175, 227);
     font-size:25pt;}
+
+
+    .h1-projetos{
+        position: relative;
+        top:-35px;
+        left: 30px;
+        display: flex;
+        font-family: Roboto flex;
+        color:aquamarine);
+       
+       justify-content: center;}
+    .projetos{
+        width: auto;
+       height: auto;
+        background-color: rgb(3, 15, 57);
+        position: relative;
+        left: 0;
+        padding:0px;
+
+        display:block;
+        font-family: Roboto flex;
+        padding: 10px;
+        margin:0px;
+    text-align: center;
+       justify-content: center;
+    }
+
+    
+    .span-projetos{font-size:20pt ;
+        color: aliceblue;}
+       
+        .projeto-grade{display: flex;
+            justify-content:space-around  ;
+            flex-direction: row;
+        }
+        .grade{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:rgba(34, 58, 179, 0.37);
+            border-radius: 10px;
+            width:300px;
+        height:200px;
+    margin:10px;
+text-decoration: none;}
+.none{position: relative;
+    left: 80px;
+    
+    align-items: center;
+    text-align: center;
+    display:flex;
+    color:white}
