@@ -349,12 +349,14 @@ top:20px;}
 
 
     .h1-projetos{
+        width: auto;
+        height: 200px;
         position: relative;
         top:-35px;
         left: 30px;
         display: flex;
         font-family: Roboto flex;
-        color:aquamarine);
+        color:aquamarine;
        
        justify-content: center;}
     .projetos{
@@ -375,11 +377,17 @@ top:20px;}
 
     
     .span-projetos{font-size:20pt ;
-        color: aliceblue;}
+        color: aliceblue;
+    position:relative;
+    top:-150px;
+    }
+        
        
         .projeto-grade{display: flex;
             justify-content:space-around  ;
             flex-direction: row;
+            position: relative;
+            top:-40px;
         }
         .grade{
             display: flex;
